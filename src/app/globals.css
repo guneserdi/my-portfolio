@@ -1,26 +1,90 @@
 @import "tailwindcss";
 
+/* --- 1. KOYU MOD AYARI --- */
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* --- 2. TEMA VE FONT TANIMLARI --- */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Fontları sisteme tanıtıyoruz */
+  --font-antic: var(--font-antic);
+  --font-code: var(--font-fira-code);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Varsayılan font */
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  scroll-behavior: auto !important;
+}
+
+/* --- 3. KESİN ÇÖZÜM (FONT ZORLAMA) --- */
+/* Ara değişken kullanmadan direkt ana değişkeni çağırıyoruz */
+
+/* Fira Code kullanan her yer için kesin kural */
+[style*="Fira Code"], 
+.font-mono,
+[class*="font-fira"] {
+  font-family: var(--font-fira-code), 'Courier New', monospace !important;
+}
+
+/* Antic kullanan her yer için kesin kural */
+[style*="Antic"],
+[class*="font-antic"] {
+  font-family: var(--font-antic), 'Arial', sans-serif !important;
+}
+
+/* --- 4. CİLA: SEÇİM RENGİ (Selection) --- */
+/* Kullanıcı bir yazıyı seçtiğinde arka plan Mavi, yazı Beyaz olsun */
+::selection {
+  background-color: #0082c8;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: #0082c8;
+  color: #ffffff;
+}
+
+/* --- 5. CİLA: SABİT MAVİ SCROLLBAR --- */
+/* Chrome, Safari, Edge, Opera için */
+::-webkit-scrollbar {
+  width: 10px; /* Çubuğun kalınlığı */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Çubuğun arkasındaki yol şeffaf */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0082c8; /* VARSAYILAN: MAVİ (Artık hep mavi görünecek) */
+  border-radius: 5px; /* Köşeleri yumuşatır */
+  border: 2px solid transparent; 
+  background-clip: content-box;
+}
+
+/* Üzerine gelip tutunca (Hover) hafifçe koyulaşsın */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #006bb3; 
+}
+
+/* Firefox için */
+html {
+  scrollbar-width: thin; 
+  scrollbar-color: #0082c8 transparent; /* Çubuk Mavi, Yol Şeffaf */
 }

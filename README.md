@@ -1,6 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ayşe Melda Güzel | Industrial Product Designer Portfolio
 
-## Getting Started
+This is a personal portfolio website designed and developed for **Ayşe Melda Güzel**, showcasing industrial design projects, craftsmanship, and professional background.
+
+Built with a focus on **minimalism**, **typography**, and **smooth interactions**.
+
+## 🚀 Live Demo
+*(Buraya siteyi yayına alınca linkini ekleyeceksin, örneğin: https://aysemeldaguzel.com)*
+
+## 🛠 Tech Stack (Teknolojiler)
+
+This project is built using the latest modern web technologies:
+
+* **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+* **Language:** TypeScript
+* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **Smooth Scroll:** [Lenis](https://lenis.studiofreight.com/)
+* **Icons:** Lucide React & React Icons
+* **Fonts:** Geist Sans, Fira Code (Custom), Antic (Custom)
+
+## ✨ Key Features (Özellikler)
+
+* **Responsive Design:** Fully compatible with mobile, tablet, and desktop.
+* **Dark/Light Mode:** System-aware theme switching with instant transition.
+* **Custom Typography:** A unique blend of *Fira Code* (Technical) and *Antic* (Elegant).
+* **Parallax Effects:** Custom zoom parallax on project detail pages.
+* **Dynamic Gallery:** Interactive "Works" gallery with blur effects.
+* **Custom Scrollbar:** Branded blue scrollbar for a unique feel.
+
+## 🏃‍♂️ Getting Started (Kurulum)
 
 First, run the development server:
 
@@ -8,29 +36,3 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

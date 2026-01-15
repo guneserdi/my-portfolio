@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Antic, Fira_Code } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Footer from "@/components/ui/footer";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -44,6 +45,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Analytics />
           <Footer />
         </ThemeProvider>
       </body>

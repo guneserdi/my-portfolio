@@ -402,9 +402,10 @@ export default function PortfolioHero() {
             className="text-lg md:text-2xl leading-relaxed opacity-80 font-light"
             style={{ fontFamily: "'Antic', sans-serif" }}
           >
-            My design roots are grounded in materials; the weight of concrete, the warmth of wood, and the versatility of composites. 
-            Understanding their distinct characters drove me to craft objects that merge utility with form. Over time, this focus expanded from individual details to projects of diverse scales. 
-            Today, my work is defined by a practical balance: aiming for aesthetic simplicity without ever compromising on the precision of manufacturability.
+            I design and build for the real world.
+Industrial Design taught me the distinct character of materials; from the weight of concrete to the logic of composites. But I don’t just look at aesthetics; I focus on how things work and how they are actually made.
+Since 2020, I’ve managed projects ranging from architectural interiors to mass-produced industrial products. My process connects design strategy directly with technical execution. To me, a concept is only strong if it is buildable.
+That’s why I balance visual simplicity with engineering constraints. I don’t just draw concepts; I drive the manufacturing process to deliver finished, functional products.
           </p>
         </div>
       </section>

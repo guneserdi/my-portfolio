@@ -24,15 +24,15 @@ const allProjectsData: Record<string, {
 }> = {
     // --- PROJE 1 ---
     "1": {
-        title: "Structure & Production Design Ahama Living, Göcek Hotel",
-        description: "Concept: 2023 | Construction: 2024 | Completion: 2025",
-        about: "This boutique hotel project began in 2023 as a design concept, moved into production in 2024, and officially opened in 2025. As the architectural and design studio supporting the lead concept office, we worked under the guidance of Nilüfer Kozikoğlu to deliver a fully realized design-to-construction process.",
-        aboutSecondColumn: "The structural system for eight cabana-type villas was developed through parametric design in Grasshopper and fabricated with CNC-milled timber components. All structural and static tests were conducted in advance, enabling the entire framework to be produced overnight and assembled on-site with exceptional efficiency.",
+        title: "Ahama Living, Structure & Production Design",
+        description: "2023-2025",
+        about: "Ahama Living transformed from a raw concept in 2023 to a fully operational boutique hotel by 2025. My role was to manage this entire design-to-construction journey, bridging the gap between architectural vision and physical reality. The goal was to deliver eight custom cabana villas that didn't just look good on paper but were structurally sound and ready for guests.",
+        aboutSecondColumn: "The structural system stands out as a key achievement in parametric engineering. We developed the forms using Grasshopper and fabricated them with CNC-milled timber. Because we conducted rigorous static tests in advance, we achieved incredible efficiency: the entire framework was produced overnight and assembled on-site with absolute precision.",
         details: [
-            { label: "Year", value: "2023 | 2024 | 2025" },
-            { label: "Location", value: "Mugla, TR" },
-            { label: "Client", value: "Ahama Living" },
-            { label: "Role", value: "Product Designer" }
+            { label: "Year", value: "2023 -2025" },
+            { label: "Location", value: "Istanbul, Mugla" },
+            { label: "Client", value: "Odas Enerji" },
+            { label: "Role", value: "Product Designer & Project Manager" }
         ],
         images: [
             { src: '/works/works1.png', alt: 'Main 1' },
@@ -68,15 +68,15 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 2 ---
     "2": {
-        title: "Deck Rehabilitation",
-        description: "Restoration: 2023 | Location: Bodrum",
-        about: "Buraya projenin ana hikayesini, başlangıç sürecini ve tasarımın arkasındaki temel fikri yazacaksın. (Örnek: Bu proje, eskiyen bir sahil iskelesinin modern ihtiyaçlara göre yeniden kurgulanması sürecini ele alıyor...)",
-        aboutSecondColumn: "Buraya projenin teknik detaylarını, malzeme seçimlerini veya uygulama sürecindeki zorlukları yazacaksın. (Örnek: Tik ağacı ve kompozit malzemelerin birleşimiyle, hem estetik hem de deniz suyuna dayanıklı bir yapı hedeflendi...)",
+        title: "Istanbul Bosphorus Mansion Private Deck Rehabilitation",
+        description: "2023",
+        about: "Located on the waterfront of the Istanbul Bosphorus, this project focused on rehabilitating an existing pier rather than tearing it down. The objective was clear: retain the pier’s historic presence while ensuring it could withstand harsh marine conditions for years to come.",
+        aboutSecondColumn: "Instead of full reconstruction, I implemented a structural strengthening strategy. This approach preserved the original character of the deck while upgrading its safety and durability against the sea.",
         details: [
             { label: "Year", value: "2023" },
-            { label: "Location", value: "Bodrum, TR" },
-            { label: "Client", value: "Private Client" },
-            { label: "Role", value: "Design & Application" }
+            { label: "Location", value: "Istanbul, TR" },
+            { label: "Client", value: "Private Owner" },
+            { label: "Role", value: "Production Designer" }
         ],
         images: [
             { src: '/works/proje2-ana.jpg', alt: 'Main 2' },
@@ -112,15 +112,15 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 3 ---
     "3": {
-        title: "Söğüt History",
-        description: "Awarded Purchase Prize | Location: Bilecik",
-        about: "Söğüt'ün tarihi dokusunu modern bir müzecilik anlayışıyla harmanlayan bu proje, ziyaretçilere kronolojik bir yolculuk sunmayı amaçlıyor. (Örnek: Yarışma projesi kapsamında, alanın tarihi katmanlarına saygı duyan bir sirkülasyon kurgusu önerildi...)",
-        aboutSecondColumn: "Mevcut topoğrafyaya minimum müdahale ile yerleşen kütleler, doğal taş ve brüt beton kullanımıyla çevresiyle bütünleşiyor. (Örnek: Sergi alanlarında doğal ışık kontrolü için özel cephe panelleri tasarlandı...)",
+        title: "Söğüt – History and Nature Encounter Architectural Competition Awarded Purchase Prize",
+        description: "2023",
+        about: "This proposal was awarded a Purchase Prize for reimagining the entrance to Söğüt. The objective was to create a landmark that serves as a bridge between the town's deep historical roots and its natural landscape. We aimed to transform a simple transit point into a meaningful encounter for both locals and visitors.",
+        aboutSecondColumn: "The design prioritizes context-sensitive architecture. We sought a delicate balance: respecting traditional cultural heritage while introducing contemporary design solutions. The focus was on creating a space that feels native to the location yet modern in its execution, ensuring the concept remained grounded in reality and technical feasibility.",
         details: [
-            { label: "Year", value: "2023" },
-            { label: "Location", value: "Bilecik, TR" },
-            { label: "Client", value: "Municipality" },
-            { label: "Status", value: "Competition Entry" }
+            { label: "Year", value: "2022" },
+            { label: "Location", value: "Söğüt, Bilecik" },
+            { label: "Client", value: "TMMOB" },
+            { label: "Status", value: "Production Designer" }
         ],
         images: [
             { src: '/works/works3.8.jpg', alt: 'Main 3' },
@@ -156,15 +156,15 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 4 ---
     "4": {
-        title: "Concrete Elements",
-        description: "Material Research | Production: 2023",
-        about: "Betonun ham ve brüt estetiğini, endüstriyel tasarım objelerine taşıyan deneysel bir çalışma. (Örnek: Bu seride, geleneksel kalıp yöntemlerinin dışına çıkılarak esnek kalıplama teknikleri araştırıldı...)",
-        aboutSecondColumn: "Her bir parça, malzemenin donma sürecindeki doğal hareketlerini yansıtacak şekilde üretildi. (Örnek: Agrega yoğunluğu ve su oranları değiştirilerek farklı yüzey dokuları elde edildi...)",
+        title: "Concrete Elements - Custom Basins Design, Production & Installation",
+        description: "2022-2025",
+        about: "This ongoing series focuses on the design and manufacturing of custom cement-mix basins. Since 2022, I have delivered these bespoke concrete elements for a diverse range of spaces, including boutique hotels, private residences, ateliers, and retail stores.",
+        aboutSecondColumn: "My role covers the complete product lifecycle. I don't just design the form; I manage the production planning, casting, and on-site installation to ensure the final product performs as well as it looks.",
         details: [
-            { label: "Year", value: "2023" },
-            { label: "Location", value: "Istanbul, TR" },
-            { label: "Client", value: "Self Initiated" }, 
-            { label: "Material", value: "Reinforced Concrete" }
+            { label: "Year", value: "2022-2025" },
+            { label: "Location", value: "Around Turkey" },
+            { label: "Client", value: "Hotels, Cafes, Restaurants" }, 
+            { label: "Material", value: "Product Designer" }
         ],
         images: [
             { src: '/works/proje4-ana.jpg', alt: 'Main 4' },
@@ -200,15 +200,15 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 5 ---
     "5": {
-        title: "Parametric Seating",
-        description: "Furniture Design | Production: 2023",
-        about: "İnsan ergonomisi ve dijital üretim tekniklerinin kesişim noktasında duran parametrik bir oturma birimi tasarımı. (Örnek: Bu tasarım, Grasshopper kullanılarak oluşturulan algoritmik bir altyapıya dayanmaktadır...)",
+        title: "Wall Sconce - Various Materials Design, Production & Installation",
+        description: "2022-2025",
+        about: "Eclipse is a quarter-sphere wall sconce developed for both individual projects and mass installation in hospitality spaces. While the project started as an architectural concept, my role was to translate that form into a manufacturable product.",
         aboutSecondColumn: "Ahşap katmanların CNC teknolojisi ile işlenmesi ve elle montajı, geleneksel zanaat ile dijital tasarımı birleştiriyor. (Örnek: Strüktürel bütünlük için kilit detayları özel olarak geliştirildi...)",
         details: [
-            { label: "Year", value: "2023" },
-            { label: "Location", value: "Izmir, TR" },
-            { label: "Client", value: "Private Commission" }, 
-            { label: "Material", value: "Plywood / Birch" }
+            { label: "Year", value: "2022-2025" },
+            { label: "Location", value: "Around Turkey" },
+            { label: "Client", value: "Hotels, Cafes, Customs" }, 
+            { label: "Material", value: "Product Designer" }
         ],
         images: [
             { src: '/works/works5.10.png', alt: 'Main 5' },
@@ -244,15 +244,15 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 6 ---
     "6": {
-        title: "Luminous Series",
-        description: "Lighting Design | Collection: 2022",
-        about: "Işığın mekanla kurduğu ilişkiyi yeniden tanımlayan, minimal formlara sahip bir aydınlatma koleksiyonu. (Örnek: Bu seri, doğrudan aydınlatma yerine yansıyan ışığın oluşturduğu atmosferi merkeze alıyor...)",
-        aboutSecondColumn: "Pirinç ve el üfleme camın birlikteliği, endüstriyel üretim teknikleriyle zanaatı bir araya getiriyor. (Örnek: Metal aksamlar CNC tornada işlenirken, cam parçalar geleneksel yöntemlerle şekillendirildi...)",
+        title: "Cement Mixed Planters - Various Sizes Design, Production & Installation",
+        description: "2022-2025",
+        about: "Since 2022, this collection has evolved as a continuous experiment in fabrication. For me, creating a planter isn't just about pouring concrete into a mold; it’s about refining the production logic. I treat every piece as a chance to push the limits of custom manufacturing, moving from simple casts to complex, structural forms that challenge the material.",
+        aboutSecondColumn: "My approach balances the raw character of cement mixes and terrazzo composites with the practical needs of the space. Whether designing for a heavy-duty hotel lobby or a refined retail interior, I engineer the material composition to ensure the final product is visually striking yet structurally durable enough for real-world use.",
         details: [
-            { label: "Year", value: "2022" },
-            { label: "Location", value: "Istanbul, TR" },
-            { label: "Client", value: "Brand Collaboration" }, 
-            { label: "Material", value: "Brass & Glass" }
+            { label: "Year", value: "2022-2025" },
+            { label: "Location", value: "Around Turkey" },
+            { label: "Client", value: "Hotels, Cafes, Customs" }, 
+            { label: "Material", value: "Product Designer" }
         ],
         images: [
             { src: '/works/proje6-ana.jpg', alt: 'Main 6' },
@@ -288,15 +288,15 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 7 ---
     "7": {
-        title: "Modular Workstation",
-        description: "Office System | Design: 2022",
-        about: "Değişen ofis dinamiklerine ve hibrit çalışma modellerine uyum sağlayan, esnek bir çalışma istasyonu sistemi. (Örnek: Modüler yapısı sayesinde tekli kullanımdan çoklu çalışma gruplarına kadar ölçeklenebilir bir çözüm sunuyor...)",
-        aboutSecondColumn: "Alüminyum ekstrüzyon profiller ve geri dönüştürülmüş PET paneller kullanılarak, hem hafif hem de akustik konfor sağlayan bir yapı kurgulandı. (Örnek: Bağlantı detayları, alet gerektirmeyen hızlı montaja olanak tanıyor...)",
+        title: "Transformation of Movement into Structure Ceramic Tilex Mixed Fluid Forms Installation",
+        description: "2023-2024",
+        about: "I led the full production process for this installation, collaborating directly with artist Aslı Özdoyuran. The project transformed archival swimming patterns into complex ''fluid forms'' within a gallery setting. My primary focus was to interpret these abstract digital concepts and establish a clear workflow that could translate the artist's vision into a tangible, physical reality.",
+        aboutSecondColumn: "My role served as the bridge between the digital design and the workshop floor. I took the computational data and resolved the fabrication logic needed to actually build it. By overseeing the technical details, I ensured a flawless transition from screen to material, guaranteeing that the complex geometry was executed without compromising the artistic intent.",
         details: [
-            { label: "Year", value: "2022" },
-            { label: "Location", value: "Istanbul, TR" },
-            { label: "Client", value: "Furniture Brand" }, 
-            { label: "Role", value: "Industrial Design" }
+            { label: "Year", value: "2023-2024" },
+            { label: "Location", value: "Istanbul- Izmir" },
+            { label: "Client", value: "Aslı Özdoyuran" }, 
+            { label: "Role", value: "IProduct Designer" }
         ],
         images: [
             { src: '/works/works7.png', alt: 'Main 7' },
@@ -332,15 +332,15 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 8 ---
     "8": {
-        title: "Ceramic Collection",
+        title: "Also Your Wound, Rosa – Installation, 17th Istanbul Biennial Cement Mixed Sculpture Installation",
         description: "Craft & Design | Production: 2022",
-        about: "Geleneksel seramik üretim tekniklerinin modern form arayışlarıyla yeniden yorumlandığı bir vazo ve obje koleksiyonu. (Örnek: Doğal formlardan ilham alan bu seri, çamurun plastikliğini vurgulayan organik hatlara sahiptir...)",
-        aboutSecondColumn: "Sırlama aşamasında yapılan deneysel uygulamalar, her bir parçanın benzersiz bir dokuya ve renk geçişine sahip olmasını sağladı. (Örnek: Yüksek dereceli fırınlama teknikleriyle malzemenin dayanıklılığı artırıldı...)",
+        about: "For the 17th Istanbul Biennial, I collaborated with artist Gordon Hall under the curation of Pelin Uran. My role was to lead the entire production design and fabrication for the exhibition at Kurtuluş Greek School.",
+        aboutSecondColumn: "This was a massive operation. I managed a team of 10 people to produce 20 concrete sculptures, handling over three tons of material. It wasn't just about making art; it was about managing a heavy-duty production line.",
         details: [
             { label: "Year", value: "2022" },
-            { label: "Location", value: "Istanbul, TR" },
-            { label: "Client", value: "Private Collection" }, 
-            { label: "Material", value: "Stoneware Clay" }
+            { label: "Location", value: "Istanbul" },
+            { label: "Client", value: "Pelin Uran" }, 
+            { label: "Material", value: "Product Designer" }
         ],
         images: [
             { src: '/works/works8.png', alt: 'Main 8' },
@@ -376,15 +376,15 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 9 ---
     "9": {
-        title: "Urban Installation",
-        description: "Public Art | Installation: 2021",
-        about: "Kent meydanında geçici bir süre için kurgulanan, sosyal etkileşimi artırmayı hedefleyen interaktif bir enstalasyon. (Örnek: Ziyaretçilerin hareketlerine duyarlı sensörler aracılığıyla değişen ışık ve ses oyunları...)",
-        aboutSecondColumn: "Hafif çelik strüktür üzerine gerilen yarı saydam tekstil yüzeyler, gündüz gölge oyunları yaratırken gece dijital bir tuvale dönüşüyor. (Örnek: Modüler yapısı sayesinde kurulum ve söküm işlemleri hızlıca tamamlandı...)",
+        title: "Carved Conversation Custom Cement-Cast Wall Reliefs Installation",
+        description: "2022-2023",
+        about: "Collaborating with artist SaraNoa Mark during her Fulbright residency, I managed the translation of delicate hand-carved clay textures into large-scale cement wall panels. The process required precise mold-making to capture every detail, transferring the ephemeral nature of clay into permanent, engineered cement-based mixtures that could withstand the elements.",
+        aboutSecondColumn: "The critical challenge was the installation within a centuries-old historic site. Dealing with heavy panels, I had to devise a mounting strategy that ensured absolute stability without drilling a single hole. I engineered a custom solution that respected strict preservation limits, ensuring the installation left no trace on the ancient stone.",
         details: [
-            { label: "Year", value: "2021" },
-            { label: "Location", value: "Istanbul, TR" },
-            { label: "Client", value: "Art Foundation" }, 
-            { label: "Role", value: "Concept & Production" }
+            { label: "Year", value: "2022-2023" },
+            { label: "Location", value: "Istanbul - Konya" },
+            { label: "Client", value: "SaraNoa Mark" }, 
+            { label: "Role", value: "Product Designer" }
         ],
         images: [
             { src: '/works/works9.2.jpg', alt: 'Main 9' },

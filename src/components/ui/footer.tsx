@@ -95,7 +95,7 @@ export default function Footer() {
               <a href="https://www.linkedin.com/in/ay%C5%9Fe-melda-g%C3%BCzel/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-[#0082c8] transition-colors group">
                 <FaLinkedin size={iconSize} /> <span>LinkedIn</span>
               </a>
-              <a href="https://www.behance.net" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-[#0082c8] transition-colors group">
+              <a href="https://www.behance.net/aysemeldaguzel" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-[#0082c8] transition-colors group">
                 <FaBehance size={iconSize} /> <span>Behance</span>
               </a>
               <a href="mailto:aysemeldaguzel@gmail.com" className="flex items-center gap-3 hover:text-[#0082c8] transition-colors group">

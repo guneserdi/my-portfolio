@@ -56,19 +56,17 @@ export default function AboutMe() {
           <div className="space-y-8 order-2 md:order-1">
             <h3 className="text-2xl font-bold tracking-tight uppercase text-[#0082c8]" 
                 style={{ fontFamily: "'Fira Code', monospace" }}>
-              Mesleki Geçmiş
+              Design & Build
             </h3>
             
             <div className="space-y-4 text-base md:text-lg leading-relaxed opacity-90" 
                  style={{ fontFamily: "'Antic', sans-serif" }}>
               <p>
-                Merhaba, ben Ayşe Melda Güzel. Endüstriyel Tasarımcıyım. 
-                Tasarımlarımda fonksiyonelliği estetikle birleştirerek, kullanıcı deneyimini merkeze alan ürünler geliştiriyorum.
+                I am a Product Designer and Production Consultant who prefers the workshop to the desk. My career is defined by bridging the gap between digital concepts and physical reality.
               </p>
               <p>
-                Kariyerim boyunca çeşitli malzemelerle çalışma fırsatı buldum. 
-                Her projede sürdürülebilirlik ve yenilikçi üretim tekniklerini harmanlayarak, 
-                zamansız ve dayanıklı ürünler ortaya çıkarmayı hedefliyorum.
+                Building on my tenure at Urban Atölye, Tuspa Architecture, and Phi Art, I currently serve as a strategic consultant for various design and manufacturing projects. I don't just deliver drawings; I manage the entire lifecycle—ensuring that complex designs are built to last, from luxury interiors to mass production.
+
               </p>
             </div>
 
@@ -126,12 +124,12 @@ export default function AboutMe() {
             <div className="space-y-3">
               <h3 className="text-xl font-bold uppercase tracking-tight text-[#0082c8]" 
                   style={{ fontFamily: "'Fira Code', monospace" }}>
-                El Sanatları ve İmalat
+                Methodology & Background
               </h3>
-              <p className="text-sm md:text-base leading-relaxed opacity-70" 
+              <p className="text-sm md:text-base leading-relaxed opacity-90" 
                  style={{ fontFamily: "'Antic', sans-serif" }}>
-                Geleneksel el sanatlarını modern üretim teknikleriyle birleştiriyorum. 
-                Her detayda insan dokunuşunun sıcaklığını hissettirmek, makinelerin hassasiyetiyle birleştiğinde ortaya eşsiz eserler çıkıyor.
+                I hold a degree in Industrial Product Design from Bahçeşehir University, but my real edge comes from the field. I combine the precision of parametric design with the grit of hands-on fabrication. My focus is always on manufacturability. I use advanced computational tools to solve production challenges before they happen. Whether I'm detailing a complex joint or managing a material supply chain, my goal is always the same: precision in execution.
+
               </p>
             </div>
             
@@ -149,12 +147,12 @@ export default function AboutMe() {
             <div className="space-y-3">
               <h3 className="text-xl font-bold uppercase tracking-tight text-[#0082c8]" 
                   style={{ fontFamily: "'Fira Code', monospace" }}>
-                Yaklaşım ve İlham
+                Mindset
               </h3>
-              <p className="text-sm md:text-base leading-relaxed opacity-70" 
+              <p className="text-sm md:text-base leading-relaxed opacity-90" 
                  style={{ fontFamily: "'Antic', sans-serif" }}>
-                Doğadaki formlar, mimari yapılar ve gündelik yaşamın ritmi tasarım dilimi şekillendiriyor. 
-                "Az ama öz" felsefesiyle, karmaşık problemleri sade çözümlere kavuşturmayı amaçlıyorum.
+               Outside the studio, I am a competitive sailor. Navigating open water requires spatial awareness, foresight, and the resilience to handle changing conditions. I apply this same discipline to my work. In a complex construction site, just like at sea, you need to be adaptable, quick, and technically sound. This mindset allows me to navigate project crises with the same calm I bring to the water.
+
               </p>
             </div>
 

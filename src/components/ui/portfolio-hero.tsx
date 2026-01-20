@@ -311,7 +311,7 @@ export default function PortfolioHero() {
   <div className="absolute top-6 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-1">
     {/* Mandalina/Logo İkonu */}
     <img 
-      src="/meldalogo1.png" 
+      src="/meldalogo.svg" 
       alt="Logo" 
       className="h-10 w-auto object-contain" 
     />

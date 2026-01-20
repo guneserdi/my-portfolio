@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils';
 
 // --- TÜM PROJE VERİLERİ (SENİN VERİLERİN - EKSİKSİZ) ---
 const allProjectsData: Record<string, { 
-    title: string; 
+    title: string | React.ReactNode; 
     description: string; 
     about: string; 
     aboutSecondColumn?: string; 
@@ -24,7 +24,7 @@ const allProjectsData: Record<string, {
 }> = {
     // --- PROJE 1 ---
     "1": {
-        title: "Ahama Living, Structure & Production Design",
+        title: <>Ahama Living, Göcek Hotel <br /> Structure & Production Design</>,
         description: "2023-2025",
         about: "Ahama Living transformed from a raw concept in 2023 to a fully operational boutique hotel by 2025. My role was to manage this entire design-to-construction journey, bridging the gap between architectural vision and physical reality. The goal was to deliver eight custom cabana villas that didn't just look good on paper but were structurally sound and ready for guests.",
         aboutSecondColumn: "The structural system stands out as a key achievement in parametric engineering. We developed the forms using Grasshopper and fabricated them with CNC-milled timber. Because we conducted rigorous static tests in advance, we achieved incredible efficiency: the entire framework was produced overnight and assembled on-site with absolute precision.",
@@ -68,7 +68,7 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 2 ---
     "2": {
-        title: "Istanbul Bosphorus Mansion Private Deck Rehabilitation",
+        title: <>Istanbul Bosphorus Mansion Private Deck  <br /> Rehabilitation</>,
         description: "2023",
         about: "Located on the waterfront of the Istanbul Bosphorus, this project focused on rehabilitating an existing pier rather than tearing it down. The objective was clear: retain the pier’s historic presence while ensuring it could withstand harsh marine conditions for years to come.",
         aboutSecondColumn: "Instead of full reconstruction, I implemented a structural strengthening strategy. This approach preserved the original character of the deck while upgrading its safety and durability against the sea.",
@@ -112,7 +112,7 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 3 ---
     "3": {
-        title: "Söğüt – History and Nature Encounter Architectural Competition Awarded Purchase Prize",
+        title: <>Söğüt – History and Nature Encounter  <br /> Architectural Competition Awarded Purchase Prize</>,
         description: "2023",
         about: "This proposal was awarded a Purchase Prize for reimagining the entrance to Söğüt. The objective was to create a landmark that serves as a bridge between the town's deep historical roots and its natural landscape. We aimed to transform a simple transit point into a meaningful encounter for both locals and visitors.",
         aboutSecondColumn: "The design prioritizes context-sensitive architecture. We sought a delicate balance: respecting traditional cultural heritage while introducing contemporary design solutions. The focus was on creating a space that feels native to the location yet modern in its execution, ensuring the concept remained grounded in reality and technical feasibility.",
@@ -156,7 +156,7 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 4 ---
     "4": {
-        title: "Concrete Elements - Custom Basins Design, Production & Installation",
+        title: <>Concrete Elements - Custom Basins<br /> Design, Production & Installation</>,
         description: "2022-2025",
         about: "This ongoing series focuses on the design and manufacturing of custom cement-mix basins. Since 2022, I have delivered these bespoke concrete elements for a diverse range of spaces, including boutique hotels, private residences, ateliers, and retail stores.",
         aboutSecondColumn: "My role covers the complete product lifecycle. I don't just design the form; I manage the production planning, casting, and on-site installation to ensure the final product performs as well as it looks.",
@@ -200,7 +200,7 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 5 ---
     "5": {
-        title: "Wall Sconce - Various Materials Design, Production & Installation",
+        title: <>Wall Sconce - Various Materials<br /> Design, Production & Installation</>,
         description: "2022-2025",
         about: "Eclipse is a quarter-sphere wall sconce developed for both individual projects and mass installation in hospitality spaces. While the project started as an architectural concept, my role was to translate that form into a manufacturable product.",
         aboutSecondColumn: "Ahşap katmanların CNC teknolojisi ile işlenmesi ve elle montajı, geleneksel zanaat ile dijital tasarımı birleştiriyor. (Örnek: Strüktürel bütünlük için kilit detayları özel olarak geliştirildi...)",
@@ -244,7 +244,7 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 6 ---
     "6": {
-        title: "Cement Mixed Planters - Various Sizes Design, Production & Installation",
+        title: <>Cement Mixed Planters - Various Sizes<br /> Design, Production & Installation</>,
         description: "2022-2025",
         about: "Since 2022, this collection has evolved as a continuous experiment in fabrication. For me, creating a planter isn't just about pouring concrete into a mold; it’s about refining the production logic. I treat every piece as a chance to push the limits of custom manufacturing, moving from simple casts to complex, structural forms that challenge the material.",
         aboutSecondColumn: "My approach balances the raw character of cement mixes and terrazzo composites with the practical needs of the space. Whether designing for a heavy-duty hotel lobby or a refined retail interior, I engineer the material composition to ensure the final product is visually striking yet structurally durable enough for real-world use.",
@@ -288,7 +288,7 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 7 ---
     "7": {
-        title: "Transformation of Movement into Structure Ceramic Tilex Mixed Fluid Forms Installation",
+        title: <>Transformation of Movement into Structure<br />Ceramic Tilex Mixed Fluid Forms Installation</>,
         description: "2023-2024",
         about: "I led the full production process for this installation, collaborating directly with artist Aslı Özdoyuran. The project transformed archival swimming patterns into complex ''fluid forms'' within a gallery setting. My primary focus was to interpret these abstract digital concepts and establish a clear workflow that could translate the artist's vision into a tangible, physical reality.",
         aboutSecondColumn: "My role served as the bridge between the digital design and the workshop floor. I took the computational data and resolved the fabrication logic needed to actually build it. By overseeing the technical details, I ensured a flawless transition from screen to material, guaranteeing that the complex geometry was executed without compromising the artistic intent.",
@@ -332,7 +332,9 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 8 ---
     "8": {
-        title: "Also Your Wound, Rosa – Installation, 17th Istanbul Biennial Cement Mixed Sculpture Installation",
+        title: <>Also Your Wound, Rosa – Installation,
+
+ 17th Istanbul Biennial<br />Cement Mixed Sculpture Installation</>,
         description: "Craft & Design | Production: 2022",
         about: "For the 17th Istanbul Biennial, I collaborated with artist Gordon Hall under the curation of Pelin Uran. My role was to lead the entire production design and fabrication for the exhibition at Kurtuluş Greek School.",
         aboutSecondColumn: "This was a massive operation. I managed a team of 10 people to produce 20 concrete sculptures, handling over three tons of material. It wasn't just about making art; it was about managing a heavy-duty production line.",
@@ -376,7 +378,7 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 9 ---
     "9": {
-        title: "Carved Conversation Custom Cement-Cast Wall Reliefs Installation",
+        title: <>Carved Conversation<br />Custom Cement-Cast Wall Reliefs Installation</>,
         description: "2022-2023",
         about: "Collaborating with artist SaraNoa Mark during her Fulbright residency, I managed the translation of delicate hand-carved clay textures into large-scale cement wall panels. The process required precise mold-making to capture every detail, transferring the ephemeral nature of clay into permanent, engineered cement-based mixtures that could withstand the elements.",
         aboutSecondColumn: "The critical challenge was the installation within a centuries-old historic site. Dealing with heavy panels, I had to devise a mounting strategy that ensured absolute stability without drilling a single hole. I engineered a custom solution that respected strict preservation limits, ensuring the installation left no trace on the ancient stone.",

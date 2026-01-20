@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Download, ChevronLeft, ChevronRight } from "lucide-react";
+import { Eye, ChevronLeft, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion"; 
 
 const sliderImages = [
@@ -71,14 +71,15 @@ export default function AboutMe() {
             </div>
 
             <a 
-              href="/cv.pdf" 
-              download
-              className="inline-flex items-center gap-3 px-6 py-3 bg-[#0082c8] text-white rounded-sm hover:opacity-80 transition-opacity font-bold text-sm shadow-md"
-              style={{ fontFamily: "'Fira Code', monospace" }}
-            >
-              <Download size={18} />
-              DOWNLOAD CV
-            </a>
+  href="https://docs.google.com/document/d/1eyfxWMpoZX792H22DJgJL0euYFKCpSpK0h7VpjUgcH4/edit?pli=1&tab=t.0" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="inline-flex items-center gap-3 px-6 py-3 bg-[#0082c8] text-white rounded-sm hover:opacity-80 transition-opacity font-bold text-sm shadow-md"
+  style={{ fontFamily: "'Fira Code', monospace" }}
+>
+  <Eye size={18} /> 
+  VIEW CV 
+</a>
           </div>
 
           <div className="order-1 md:order-2 relative w-full aspect-[4/3] group rounded-sm overflow-hidden bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700">

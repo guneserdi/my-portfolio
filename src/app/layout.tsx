@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   title: "Ayşe Melda Güzel | Industrial Product Designer",
   description: "Portfolio of Ayşe Melda Güzel, an Industrial Product Designer based in Istanbul. Focusing on functional aesthetics, sustainable materials, and innovative production techniques.",
   icons: {
-    icon: '/meldalogo.svg',
+    icon: '/meldalogo2.svg',
   }
 };
 

@@ -34,17 +34,17 @@ const galleryData = [
   {
     id: 6,
     title: "Cement Mixed Planters - Various Sizes",
-    src: "/works/works6.png",
+    src: "/works/w6/w6.4.png",
   },
   {
     id: 7,
-    title: "Wall Sconce",
-    src: "/works/works7.png",
+    title: "Ceramic Tile Mixed Fluid Forms Installation",
+    src: "/works/w7/w7.3.png",
   },
   {
     id: 8,
     title: "Cement Mixed Sculpture Installation 17th Istanbul Biennale",
-    src: "/works/works8.png",
+    src: "/works/w8/w8.png",
   },
   {
     id: 9,

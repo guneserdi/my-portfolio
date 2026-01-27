@@ -89,22 +89,22 @@ const allProjectsData: Record<string, {
         ],
         extraImages: [
             { 
-                src: '/works/proje2-detay1.jpg', 
+                src: '/works/w2/w2.1.png', 
                 colSpan: 2, 
-                caption: "Geniş bir açıdan projenin bitmiş hali." 
+                caption: "To ensure long-term stability under tidal movement and saltwater exposure, the rehabilitation required a precise, material-focused execution:" 
             },
             { 
-                src: '/works/proje2-detay2.jpg', 
+                src: '/works/w2/w2.2.jpg', 
                 colSpan: 1, 
                 caption: "Malzeme detaylarını gösteren yakın çekim."
             },
             { 
-                src: '/works/proje2-detay3.jpg', 
+                src: '/works/w2/w2.3.png', 
                 colSpan: 1, 
-                caption: "İnşaat sürecinden bir kare."
+                caption: "Concrete & Foundations: We inspected the underwater foundations and repaired areas damaged by saltwater erosion to restore solid footing."
             },
             { 
-                src: '/works/proje2-detay4.jpg', 
+                src: '/works/w2/w2.4.jpg', 
                 colSpan: 2, 
                 caption: "Projenin gece görünümü."
             }
@@ -133,22 +133,22 @@ const allProjectsData: Record<string, {
         ],
         extraImages: [
             { 
-                src: '/works/works3.6.png', 
+                src: '/works/w3/w3.1.jpg', 
                 colSpan: 2, 
                 caption: "Detailed view of the main structural elements during the installation phase."
             },
             { 
-                src: '/works/works3.7.png', 
+                src: '/works/w3/w3.2.png', 
                 colSpan: 1, 
                 caption: "Material selection closeup."
             },
             { 
-                src: '/works/works3.2.png', 
+                src: '/works/w3/w3.3.jpg', 
                 colSpan: 1, 
                 caption: "Joint details and finishing touches."
             },
             { 
-                src: '/works/works3.2.png', 
+                src: '/works/w3/w3.4.jpg', 
                 colSpan: 2, 
                 caption: "Final construction view from the seaside facade."
             }
@@ -221,22 +221,27 @@ const allProjectsData: Record<string, {
         ],
         extraImages: [
             { 
-                src: '/works/proje5-uretim.jpg', 
+                src: '/works/w5/w5.1.png', 
                 colSpan: 2, 
                 caption: "CNC kesim sonrası parçaların birleştirilme süreci."
             },
             { 
-                src: '/works/proje5-detay.jpg', 
+                src: '/works/w5/w5.2.png', 
                 colSpan: 1, 
                 caption: "Katmanların oluşturduğu dokusal detay."
             },
             { 
-                src: '/works/proje5-teknik.jpg', 
+                src: '/works/w5/w5.3.png', 
                 colSpan: 1, 
                 caption: "Teknik çizim ve montaj şeması."
             },
             { 
-                src: '/works/proje5-son.jpg', 
+                src: '/works/w5/w5.3.png', 
+                colSpan: 1, 
+                caption: "Teknik çizim ve montaj şeması."
+            },
+            { 
+                src: '/works/w5/w5.4.png', 
                 colSpan: 2, 
                 caption: "Ürünün mekandaki duruşu."
             }
@@ -255,13 +260,13 @@ const allProjectsData: Record<string, {
             { label: "Material", value: "Product Designer" }
         ],
         images: [
-            { src: '/works/proje6-ana.jpg', alt: 'Main 6' },
-            { src: '/works/proje6-detay1.jpg', alt: 'Detail 6-1' },
-            { src: '/works/proje6-detay2.jpg', alt: 'Detail 6-2' },
-            { src: '/works/proje6-detay3.jpg', alt: 'Detail 6-3' },
-            { src: '/works/proje6-detay4.jpg', alt: 'Detail 6-4' },
-            { src: '/works/proje6-detay5.jpg', alt: 'Detail 6-5' },
-            { src: '/works/proje6-detay6.jpg', alt: 'Detail 6-6' },
+            { src: '/works/w6/w6.png', alt: 'Main 6' },
+            { src: '/works/w6/w6.1.png', alt: 'Detail 6-1' },
+            { src: '/works/w6/w6.2.png', alt: 'Detail 6-2' },
+            { src: '/works/w6/w6.3.png', alt: 'Detail 6-3' },
+            { src: '/works/w6/w6.4.png', alt: 'Detail 6-4' },
+            { src: '/works/w6/w6.5.png', alt: 'Detail 6-5' },
+            { src: '/works/w6/w6.6.png', alt: 'Detail 6-6' },
         ],
         extraImages: [
             { 
@@ -288,7 +293,7 @@ const allProjectsData: Record<string, {
     },
     // --- PROJE 7 ---
     "7": {
-        title: <>Transformation of Movement into Structure<br />Ceramic Tilex Mixed Fluid Forms Installation</>,
+        title: <>Transformation of Movement into Structure<br />Ceramic Tile Mixed Fluid Forms Installation</>,
         description: "2023-2024",
         about: "I led the full production process for this installation, collaborating directly with artist Aslı Özdoyuran. The project transformed archival swimming patterns into complex ''fluid forms'' within a gallery setting. My primary focus was to interpret these abstract digital concepts and establish a clear workflow that could translate the artist's vision into a tangible, physical reality.",
         aboutSecondColumn: "My role served as the bridge between the digital design and the workshop floor. I took the computational data and resolved the fabrication logic needed to actually build it. By overseeing the technical details, I ensured a flawless transition from screen to material, guaranteeing that the complex geometry was executed without compromising the artistic intent.",
@@ -296,35 +301,35 @@ const allProjectsData: Record<string, {
             { label: "Year", value: "2023-2024" },
             { label: "Location", value: "Istanbul- Izmir" },
             { label: "Client", value: "Aslı Özdoyuran" }, 
-            { label: "Role", value: "IProduct Designer" }
+            { label: "Role", value: "Product Designer" }
         ],
         images: [
-            { src: '/works/works7.png', alt: 'Main 7' },
-            { src: '/works/works7.1.png', alt: 'Detail 7-1' },
-            { src: '/works/works7.2.png', alt: 'Detail 7-2' },
-            { src: '/works/works7.3.png', alt: 'Detail 7-3' },
-            { src: '/works/works7.4.png', alt: 'Detail 7-4' },
-            { src: '/works/works7.5.png', alt: 'Detail 7-5' },
-            { src: '/works/works7.6.png', alt: 'Detail 7-6' },
+            { src: '/works/w7/w7.png', alt: 'Main 7' },
+            { src: '/works/w7/w7.1.png', alt: 'Detail 7-1' },
+            { src: '/works/w7/w7.2.png', alt: 'Detail 7-2' },
+            { src: '/works/w7/w7.3.png', alt: 'Detail 7-3' },
+            { src: '/works/w7/w7.5.1.jpg', alt: 'Detail 7-4' },
+            { src: '/works/w7/w7.5.png', alt: 'Detail 7-5' },
+            { src: '/works/w7/w7.6.jpeg', alt: 'Detail 7-6' },
         ],
         extraImages: [
             { 
-                src: '/works/proje7-render.jpg', 
+                src: '/works/w7/w7.1.png', 
                 colSpan: 2, 
                 caption: "Sistemenin açık ofis kurgusundaki görünümü."
             },
             { 
-                src: '/works/proje7-detay.jpg', 
+                src: '/works/w7/w7.2.png', 
                 colSpan: 1, 
                 caption: "Bağlantı detayı ve kablo yönetimi."
             },
             { 
-                src: '/works/proje7-akustik.jpg', 
+                src: '/works/w7/w7.3.png', 
                 colSpan: 1, 
                 caption: "Akustik panellerin doku detayı."
             },
             { 
-                src: '/works/proje7-varyasyon.jpg', 
+                src: '/works/w7/w7.4.png', 
                 colSpan: 2, 
                 caption: "Farklı renk ve malzeme seçenekleri."
             }
@@ -345,13 +350,13 @@ const allProjectsData: Record<string, {
             { label: "Material", value: "Product Designer" }
         ],
         images: [
-            { src: '/works/works8.png', alt: 'Main 8' },
-            { src: '/works/works8.1.png', alt: 'Detail 8-1' },
-            { src: '/works/works8.6.png', alt: 'Detail 8-2' },
-            { src: '/works/works8.4.png', alt: 'Detail 8-3' },
-            { src: '/works/works8.5.png', alt: 'Detail 8-4' },
-            { src: '/works/works8.3.png', alt: 'Detail 8-5' },
-            { src: '/works/works8.7.png', alt: 'Detail 8-6' },
+            { src: '/works/w8/w8.1.png', alt: 'Main 8' },
+            { src: '/works/w8/w8.png', alt: 'Detail 8-1' },
+            { src: '/works/w8/w8.2.png', alt: 'Detail 8-2' },
+            { src: '/works/w8/w8.3.png', alt: 'Detail 8-3' },
+            { src: '/works/w8/w8.4.png', alt: 'Detail 8-4' },
+            { src: '/works/w8/w8.5.png', alt: 'Detail 8-5' },
+            { src: '/works/w8/w8.6.png', alt: 'Detail 8-6' },
         ],
         extraImages: [
             { 

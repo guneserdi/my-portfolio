@@ -135,7 +135,7 @@ const allProjectsData: Record<string, {
             { 
                 src: '/works/w3/w3.1.jpg', 
                 colSpan: 2, 
-                caption: "Detailed view of the main structural elements during the installation phase."
+                caption: ""
             },
             { 
                 src: '/works/w3/w3.2.png', 
@@ -150,7 +150,7 @@ const allProjectsData: Record<string, {
             { 
                 src: '/works/w3/w3.4.jpg', 
                 colSpan: 2, 
-                caption: "Final construction view from the seaside facade."
+                caption: ""
             }
         ]
     },
@@ -360,22 +360,22 @@ const allProjectsData: Record<string, {
         ],
         extraImages: [
             { 
-                src: '/works/proje8-group.jpg', 
+                src: '/works/w8/w8.1.png', 
                 colSpan: 2, 
                 caption: "Koleksiyonun bir arada görünümü."
             },
             { 
-                src: '/works/proje8-doku.jpg', 
+                src: '/works/w8/w8.2.png', 
                 colSpan: 1, 
                 caption: "Sır dokusu ve yüzey detayı."
             },
             { 
-                src: '/works/proje8-process.jpg', 
+                src: '/works/w8/w8.3.png', 
                 colSpan: 1, 
                 caption: "Tornada şekillendirme süreci."
             },
             { 
-                src: '/works/proje8-display.jpg', 
+                src: '/works/w8/w8.4.png', 
                 colSpan: 2, 
                 caption: "Mekanda sergileme örneği."
             }
@@ -395,7 +395,7 @@ const allProjectsData: Record<string, {
         ],
         images: [
             { src: '/works/works9.2.jpg', alt: 'Main 9' },
-            { src: '/works/works9..jpg', alt: 'Detail 9-1' },
+            { src: '/works/works9.2.jpg', alt: 'Detail 9-1' },
             { src: '/works/works9.6.jpg', alt: 'Detail 9-2' },
             { src: '/works/works9.11.png', alt: 'Detail 9-3' },
             { src: '/works/works9.4.jpg', alt: 'Detail 9-4' },
@@ -404,22 +404,22 @@ const allProjectsData: Record<string, {
         ],
         extraImages: [
             { 
-                src: '/works/proje9-gece.jpg', 
+                src: '/works/works9.4.jpg', 
                 colSpan: 2, 
                 caption: "Enstalasyonun gece görünümü ve ışık efektleri."
             },
             { 
-                src: '/works/proje9-detay.jpg', 
+                src: '/works/works9.4.jpg', 
                 colSpan: 1, 
                 caption: "Strüktür ve tekstil birleşim detayı."
             },
             { 
-                src: '/works/proje9-process.jpg', 
+                src: '/works/works9.4.jpg', 
                 colSpan: 1, 
                 caption: "Atölye üretim aşaması."
             },
             { 
-                src: '/works/proje9-interaction.jpg', 
+                src: '/works/works9.4.jpg', 
                 colSpan: 2, 
                 caption: "Ziyaretçilerin eserle etkileşimi."
             }

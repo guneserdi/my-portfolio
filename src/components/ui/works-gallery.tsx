@@ -13,13 +13,13 @@ const galleryData = [
   },
   {
     id: 2,
-    title: "Private Deck Rehabilitation Istanbul Bosphorus Mansion",
-    src: "/works/works2.png",
+    title: "Deck Rehabilitation",
+    src: "/works/w2/w2.JPG",
   },
   {
     id: 3,
-    title: "Söğüt – History and Nature Encounter, Architectural Competition",
-    src: "/works/works3.png",
+    title: "Architectural Competition",
+    src: "/works/w3/w3.1.jpg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const galleryData = [
   {
     id: 5,
     title: "Wall Sconce",
-    src: "/works/works5.png",
+    src: "/works/w5/works5.png",
   },
   {
     id: 6,

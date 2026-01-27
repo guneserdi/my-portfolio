@@ -79,13 +79,13 @@ const allProjectsData: Record<string, {
             { label: "Role", value: "Production Designer" }
         ],
         images: [
-            { src: '/works/proje2-ana.jpg', alt: 'Main 2' },
-            { src: '/works/proje2-detay1.jpg', alt: 'Detail 2-1' },
-            { src: '/works/proje2-detay2.jpg', alt: 'Detail 2-2' },
-            { src: '/works/proje2-detay3.jpg', alt: 'Detail 2-3' },
-            { src: '/works/proje2-detay4.jpg', alt: 'Detail 2-4' },
-            { src: '/works/proje2-detay5.jpg', alt: 'Detail 2-5' },
-            { src: '/works/proje2-detay6.jpg', alt: 'Detail 2-6' },
+            { src: '/works/w2/w2.JPG', alt: 'Main 2' },
+            { src: '/works/w2/w2.1.png', alt: 'Detail 2-1' },
+            { src: '/works/w2/w2.2.jpg', alt: 'Detail 2-2' },
+            { src: '/works/w2/w2.3.png', alt: 'Detail 2-3' },
+            { src: '/works/w2/w2.4.jpg', alt: 'Detail 2-4' },
+            { src: '/works/w2/w2.5.png', alt: 'Detail 2-5' },
+            { src: '/works/w2/w2.6.png', alt: 'Detail 2-6' },
         ],
         extraImages: [
             { 
@@ -123,13 +123,13 @@ const allProjectsData: Record<string, {
             { label: "Status", value: "Production Designer" }
         ],
         images: [
-            { src: '/works/works3.8.jpg', alt: 'Main 3' },
-            { src: '/works/works3.1.png', alt: 'Detail 3-1' },
-            { src: '/works/works3.4.png', alt: 'Detail 3-2' },
-            { src: '/works/works3.2.png', alt: 'Detail 3-3' },
-            { src: '/works/works3.3.png', alt: 'Detail 3-4' },
-            { src: '/works/works3.7.png', alt: 'Detail 3-5' },
-            { src: '/works/works3.6.png', alt: 'Detail 3-6' },
+            { src: '/works/w3/w3.jpg', alt: 'Main 3' },
+            { src: '/works/w3/w3.1.jpg', alt: 'Detail 3-1' },
+            { src: '/works/w3/w3.2.png', alt: 'Detail 3-2' },
+            { src: '/works/w3/w3.3.jpg', alt: 'Detail 3-3' },
+            { src: '/works/w3/w3.4.jpg', alt: 'Detail 3-4' },
+            { src: '/works/w3/w3.5.jpeg', alt: 'Detail 3-5' },
+            { src: '/works/w3/w3.6.jpeg', alt: 'Detail 3-6' },
         ],
         extraImages: [
             { 
@@ -211,13 +211,13 @@ const allProjectsData: Record<string, {
             { label: "Material", value: "Product Designer" }
         ],
         images: [
-            { src: '/works/works5.10.png', alt: 'Main 5' },
-            { src: '/works/works5.9.png', alt: 'Detail 5-1' },
-            { src: '/works/works5.6.png', alt: 'Detail 5-2' },
-            { src: '/works/works5.4.png', alt: 'Detail 5-3' },
-            { src: '/works/works5.9.jpg', alt: 'Detail 5-4' },
-            { src: '/works/works5.5.png', alt: 'Detail 5-5' },
-            { src: '/works/works5.png', alt: 'Detail 5-6' },
+            { src: '/works/w5/w5.png', alt: 'Main 5' },
+            { src: '/works/w5/w5.5.png', alt: 'Detail 5-1' },
+            { src: '/works/w5/w5.2.png', alt: 'Detail 5-2' },
+            { src: '/works/w5/w5.4.png', alt: 'Detail 5-3' },
+            { src: '/works/w5/w5.3.png', alt: 'Detail 5-4' },
+            { src: '/works/w5/w5.1.png', alt: 'Detail 5-5' },
+            { src: '/works/w5/w5.6.png', alt: 'Detail 5-6' },
         ],
         extraImages: [
             { 

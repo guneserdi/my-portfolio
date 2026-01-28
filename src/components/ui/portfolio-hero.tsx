@@ -1,4 +1,5 @@
 "use client";
+import { usePathname } from "next/navigation";
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Lenis from '@studio-freight/lenis';
@@ -86,6 +87,7 @@ const BlurText: React.FC<BlurTextProps> = ({
 };
 
 export default function PortfolioHero() {
+  const pathname = usePathname();
   const [isDark, setIsDark] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
@@ -287,21 +289,24 @@ export default function PortfolioHero() {
             </div>
           </div>
 
-          <button
-            type="button"
-            onClick={toggleTheme}
-            className="relative w-16 h-8 rounded-full hover:opacity-80 transition-opacity shrink-0"
-            style={{ backgroundColor: isDark ? "hsl(0 0% 15%)" : "hsl(0 0% 90%)" }}
-            aria-label="Toggle theme"
-          >
-            <div
-              className="absolute top-1 left-1 w-6 h-6 rounded-full transition-transform duration-300"
-              style={{
-                backgroundColor: "#0082c8",
-                transform: isDark ? "translateX(2rem)" : "translateX(0)",
-              }}
-            />
-          </button>
+          {/* Sadece proje detay sayfasında değilsek (yani ana sayfadaysak) butonu göster */}
+{!pathname.startsWith('/works/') && (
+  <button
+    type="button"
+    onClick={toggleTheme}
+    className="relative w-16 h-8 rounded-full hover:opacity-80 transition-opacity shrink-0"
+    style={{ backgroundColor: isDark ? "hsl(0 0% 15%)" : "hsl(0 0% 90%)" }}
+    aria-label="Toggle theme"
+  >
+    <div
+      className="absolute top-1 left-1 w-6 h-6 rounded-full transition-transform duration-300"
+      style={{
+        backgroundColor: "#0082c8",
+        transform: isDark ? "translateX(2rem)" : "translateX(0)",
+      }}
+    />
+  </button>
+)}
         </nav>
       </header>
 

@@ -536,24 +536,10 @@ export default function ProjectDetail() {
             >
                 <ArrowLeft size={24} />
                 {/* DÜZELTME: BACK TO WORKS yazısını Fira Code yaptık */}
-                <span className="text-sm" style={{ fontFamily: "'Fira Code', monospace" }}>BACK TO WORKS</span>
+                <span className="text-sm" style={{ fontFamily: "'Fira Code', monospace" }}>WORKS</span>
             </a>
 
-            <button
-                type="button"
-                onClick={toggleTheme}
-                className="fixed top-8 right-8 z-50 w-16 h-8 rounded-full hover:opacity-80 transition-opacity"
-                style={{ backgroundColor: isDark ? "hsl(0 0% 15%)" : "hsl(0 0% 90%)" }}
-                aria-label="Toggle theme"
-            >
-                <div
-                    className="absolute top-1 left-1 w-6 h-6 rounded-full transition-transform duration-300"
-                    style={{
-                        backgroundColor: "#0082c8",
-                        transform: isDark ? "translateX(2rem)" : "translateX(0)",
-                    }}
-                />
-            </button>
+            
 
             {/* BAŞLIK */}
             <div className="relative flex h-[50vh] items-center justify-center">

@@ -33,7 +33,7 @@ export default function WorksGallery({ onNavigate }: { onNavigate?: () => void }
 
     setTimeout(() => {
       router.push(`/works/${id}`);
-    }, 1500);
+    }, 1200);
   };
 
   return (
@@ -44,7 +44,7 @@ export default function WorksGallery({ onNavigate }: { onNavigate?: () => void }
         ? { opacity: 0, y: -20, filter: "blur(10px)" } 
         : { opacity: 1, y: 0, filter: "blur(0px)" }    
       }
-      transition={{ duration: 1.5, ease: "easeInOut" }}
+      transition={{ duration: 1.2, ease: "easeInOut" }}
       className="w-full py-20 px-4 md:px-6"
     >
       <div className="max-w-screen-2xl mx-auto">

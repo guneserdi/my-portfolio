@@ -17,20 +17,23 @@ const galleryData = [
   { id: 9, title: "Industrial Complex", src: "/works/works9.7.jpg" }
 ];
 
-export default function WorksGallery() {
+// Props kısmına onNavigate eklendi
+export default function WorksGallery({ onNavigate }: { onNavigate?: () => void }) {
   const [isNavigating, setIsNavigating] = useState(false);
   const router = useRouter();
 
-  // Bu fonksiyonu FocusCards içindeki onCardClick ile bağlıyoruz
   const handleProjectClick = (e: React.MouseEvent, id: number) => {
     e.preventDefault();
-    setIsNavigating(true); // Animasyonu başlat
+    
+    // SADECE BU KISIM GÜNCELLENDİ:
+    // Eğer dışarıdan bir onNavigate fonksiyonu gelmişse onu tetikle (tüm sayfayı yok eder)
+    if (onNavigate) onNavigate(); 
+    
+    setIsNavigating(true); 
 
-    // GÜNCELLENDİ: 2.0 Saniye ağır geçiş.
     setTimeout(() => {
-      // 404 HATASINI ÇÖZEN TEMİZ YÖNLENDİRME
       router.push(`/works/${id}`);
-    }, 2000);
+    }, 1500);
   };
 
   return (
@@ -41,7 +44,7 @@ export default function WorksGallery() {
         ? { opacity: 0, y: -20, filter: "blur(10px)" } 
         : { opacity: 1, y: 0, filter: "blur(0px)" }    
       }
-      transition={{ duration: 2.0, ease: "easeInOut" }}
+      transition={{ duration: 1.5, ease: "easeInOut" }}
       className="w-full py-20 px-4 md:px-6"
     >
       <div className="max-w-screen-2xl mx-auto">
@@ -50,7 +53,6 @@ export default function WorksGallery() {
           WORKS
         </h2>
 
-        {/* DÜZELTİLDİ: 'projects' yerine 'galleryData' kullanıldı ve tıklama fonksiyonu bağlandı */}
         <FocusCards 
           cards={galleryData} 
           onCardClick={handleProjectClick} 

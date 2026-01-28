@@ -226,61 +226,84 @@ export default function PortfolioHero() {
       initial={{ opacity: 0 }}       
       animate={{ opacity: 1 }}       
       transition={{ duration: 0.8, ease: "easeInOut" }}
-      
       className="min-h-screen text-foreground transition-colors overflow-hidden"
       style={{
         color: isDark ? "hsl(0 0% 100%)" : "hsl(0 0% 10%)",
       }}
     >
       <header className="fixed top-0 left-0 right-0 z-50 px-6 py-6 text-[#0082c8]">
-  {/* DEĞİŞTİ: max-w-screen-2xl ve mx-auto kaldırıldı, w-full eklendi */}
-  <nav className="flex items-center justify-between w-full">
-    
-    {/* SOL KÖŞE: Menü Butonu */}
-    <div className="relative">
-      <button
-        ref={buttonRef}
-        type="button"
-        className="p-2 transition-colors duration-300 z-50 hover:opacity-80"
-        onClick={() => setIsMenuOpen(!isMenuOpen)}
-      >
-        {isMenuOpen ? (
-          <X className="w-8 h-8" strokeWidth={2} />
-        ) : (
-          <Menu className="w-8 h-8" strokeWidth={2} />
-        )}
-      </button>
+        {/* DEĞİŞİKLİK BURADA: max-w-screen-2xl ve mx-auto kaldırıldı, w-full eklendi */}
+        <nav className="flex items-center justify-between w-full">
+          <div className="relative">
+            <button
+              ref={buttonRef}
+              type="button"
+              className="p-2 transition-colors duration-300 z-50 hover:opacity-80"
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? (
+                <X className="w-8 h-8 transition-colors duration-300" strokeWidth={2} />
+              ) : (
+                <Menu className="w-8 h-8 transition-colors duration-300" strokeWidth={2} />
+              )}
+            </button>
 
-      {/* Menü İçeriği (Aynen kalsın) */}
-      <div
-        ref={menuRef}
-        className={`absolute top-full left-0 w-[200px] md:w-[240px] border-none shadow-2xl mt-2 p-4 rounded-lg z-[100] 
-          transition-all duration-300 ease-in-out origin-top-left
-          ${isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"}
-        `}
-        style={{ backgroundColor: isDark ? "black" : "white" }}
-      >
-        {/* Menu Items... */}
-      </div>
-    </div>
+            <div
+              ref={menuRef}
+              className={`absolute top-full left-0 w-[200px] md:w-[240px] border-none shadow-2xl mt-2 ml-4 p-4 rounded-lg z-[100] 
+                transition-all duration-300 ease-in-out origin-top-left
+                ${isMenuOpen 
+                  ? "opacity-100 translate-y-0 scale-100 visible" 
+                  : "opacity-0 -translate-y-4 scale-95 invisible pointer-events-none"}
+              `}
+              style={{
+                backgroundColor: isDark ? "hsl(0 0% 0%)" : "hsl(0 0% 98%)",
+              }}
+            >
+              {menuItems.map((item) => {
+                const isActive = activeSection === item.id;
+                return (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    onClick={(e) => handleScrollTo(e, item.href)}
+                    className="block text-lg md:text-xl font-bold tracking-tight py-1.5 px-2 cursor-pointer transition-colors duration-300"
+                    style={{
+                      fontFamily: "'Fira Code', monospace",
+                      color: isActive ? "#0082c8" : (isDark ? "hsl(0 0% 100%)" : "hsl(0 0% 10%)"),
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.color = "#0082c8";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.color = isActive ? "#0082c8" : (isDark ? "hsl(0 0% 100%)" : "hsl(0 0% 10%)");
+                    }}
+                  >
+                    {item.label}
+                  </a>
+                );
+              })}
+            </div>
+          </div>
 
-    {/* SAĞ KÖŞE: Tema Değiştirme Düğmesi */}
-    <button
-      type="button"
-      onClick={toggleTheme}
-      className="relative w-16 h-8 rounded-full hover:opacity-80 transition-opacity shrink-0"
-      style={{ backgroundColor: isDark ? "hsl(0 0% 15%)" : "hsl(0 0% 90%)" }}
-    >
-      <div
-        className="absolute top-1 left-1 w-6 h-6 rounded-full transition-transform duration-300"
-        style={{
-          backgroundColor: "#0082c8",
-          transform: isDark ? "translateX(2rem)" : "translateX(0)",
-        }}
-      />
-    </button>
-  </nav>
-</header>
+          <button
+            type="button"
+            onClick={toggleTheme}
+            className="relative w-16 h-8 rounded-full hover:opacity-80 transition-opacity shrink-0"
+            style={{ backgroundColor: isDark ? "hsl(0 0% 15%)" : "hsl(0 0% 90%)" }}
+            aria-label="Toggle theme"
+          >
+            <div
+              className="absolute top-1 left-1 w-6 h-6 rounded-full transition-transform duration-300"
+              style={{
+                backgroundColor: "#0082c8",
+                transform: isDark ? "translateX(2rem)" : "translateX(0)",
+              }}
+            />
+          </button>
+        </nav>
+      </header>
 
       <main id="home" className="relative min-h-screen flex flex-col">
   {/* LOGO VE FOTOĞRAF GRUBU */}

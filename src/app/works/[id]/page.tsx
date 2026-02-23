@@ -35,13 +35,13 @@ const allProjectsData: Record<string, {
             { label: "Role", value: "Product Designer & Project Manager" }
         ],
         images: [
-            { src: '/works/works1.png', alt: 'Main 1' },
-            { src: '/works/works1.5.png', alt: 'Detail 1-1' },
-            { src: '/works/works1.2.png', alt: 'Detail 1-2' },
-            { src: '/works/works1.4.png', alt: 'Detail 1-3' },
-            { src: '/works/works1.6.png', alt: 'Detail 1-4' },
-            { src: '/works/works1.3.png', alt: 'Detail 1-5' },
-            { src: '/works/works1.1.png', alt: 'Detail 1-6' },
+            { src: '/works/w1/w1.jpg', alt: 'Main 1' },
+            { src: '/works/w1/w1.1.jpg', alt: 'Detail 1-1' },
+            { src: '/works/w1/w1.2.jpg', alt: 'Detail 1-2' },
+            { src: '/works/w1/w1.3.png', alt: 'Detail 1-3' },
+            { src: '/works/w1/w1.4.jpg', alt: 'Detail 1-4' },
+            { src: '/works/w1/w1.5.jpg', alt: 'Detail 1-5' },
+            { src: '/works/w1/w1.6.jpg', alt: 'Detail 1-6' },
         ],
         extraImages: [
             { 
@@ -167,13 +167,13 @@ const allProjectsData: Record<string, {
             { label: "Material", value: "Product Designer" }
         ],
         images: [
-            { src: '/works/proje4-ana.jpg', alt: 'Main 4' },
-            { src: '/works/proje4-detay1.jpg', alt: 'Detail 4-1' },
-            { src: '/works/proje4-detay2.jpg', alt: 'Detail 4-2' },
-            { src: '/works/proje4-detay3.jpg', alt: 'Detail 4-3' },
-            { src: '/works/proje4-detay4.jpg', alt: 'Detail 4-4' },
-            { src: '/works/proje4-detay5.jpg', alt: 'Detail 4-5' },
-            { src: '/works/proje4-detay6.jpg', alt: 'Detail 4-6' },
+            { src: '/works/w4/w4.png', alt: 'Main 4' },
+            { src: '/works/w4/w4.1.png', alt: 'Detail 4-1' },
+            { src: '/works/w4/w4.2.png', alt: 'Detail 4-2' },
+            { src: '/works/w4/w4.5.png', alt: 'Detail 4-3' },
+            { src: '/works/w4/w4.4.png', alt: 'Detail 4-4' },
+            { src: '/works/w4/w4.3.png', alt: 'Detail 4-5' },
+            { src: '/works/w4/w4.6.png', alt: 'Detail 4-6' },
         ],
         extraImages: [
             { 
@@ -212,11 +212,11 @@ const allProjectsData: Record<string, {
         ],
         images: [
             { src: '/works/w5/w5.png', alt: 'Main 5' },
-            { src: '/works/w5/w5.5.png', alt: 'Detail 5-1' },
+            { src: '/works/w5/w5.1.png', alt: 'Detail 5-1' },
             { src: '/works/w5/w5.2.png', alt: 'Detail 5-2' },
             { src: '/works/w5/w5.4.png', alt: 'Detail 5-3' },
             { src: '/works/w5/w5.3.png', alt: 'Detail 5-4' },
-            { src: '/works/w5/w5.1.png', alt: 'Detail 5-5' },
+            { src: '/works/w5/w5.5.png', alt: 'Detail 5-5' },
             { src: '/works/w5/w5.6.png', alt: 'Detail 5-6' },
         ],
         extraImages: [
@@ -351,7 +351,7 @@ const allProjectsData: Record<string, {
         ],
         images: [
             { src: '/works/w8/w8.1.png', alt: 'Main 8' },
-            { src: '/works/w8/w8.png', alt: 'Detail 8-1' },
+            { src: '/works/w8/w8.1.1.png', alt: 'Detail 8-1' },
             { src: '/works/w8/w8.2.png', alt: 'Detail 8-2' },
             { src: '/works/w8/w8.3.png', alt: 'Detail 8-3' },
             { src: '/works/w8/w8.4.png', alt: 'Detail 8-4' },
@@ -394,13 +394,13 @@ const allProjectsData: Record<string, {
             { label: "Role", value: "Product Designer" }
         ],
         images: [
-            { src: '/works/works9.2.jpg', alt: 'Main 9' },
-            { src: '/works/works9.2.jpg', alt: 'Detail 9-1' },
-            { src: '/works/works9.6.jpg', alt: 'Detail 9-2' },
-            { src: '/works/works9.11.png', alt: 'Detail 9-3' },
-            { src: '/works/works9.4.jpg', alt: 'Detail 9-4' },
-            { src: '/works/works9.10.png', alt: 'Detail 9-5' },
-            { src: '/works/works9.8.jpg', alt: 'Detail 9-6' },
+            { src: '/works/w9/w9.png', alt: 'Main 9' },
+            { src: '/works/w9/w9.1.png', alt: 'Detail 9-1' },
+            { src: '/works/w9/w9.2.png', alt: 'Detail 9-2' },
+            { src: '/works/w9/w9.3.png', alt: 'Detail 9-3' },
+            { src: '/works/w9/w9.4.png', alt: 'Detail 9-4' },
+            { src: '/works/w9/w9.5.png', alt: 'Detail 9-5' },
+            { src: '/works/w9/w9.6.png', alt: 'Detail 9-6' },
         ],
         extraImages: [
             { 

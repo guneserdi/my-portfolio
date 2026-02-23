@@ -6,15 +6,15 @@ import { motion } from "framer-motion";
 import { useRouter } from 'next/navigation';
 
 const galleryData = [
-  { id: 1, title: "Structure & Production Design Ahama Living, Göcek Hotel", src: "/works/works1.png" },
+  { id: 1, title: "Structure & Production Design Ahama Living, Göcek Hotel", src: "/works/w1/w1.1.1.jpg" },
   { id: 2, title: "Deck Rehabilitation", src: "/works/w2/w2.JPG" },
   { id: 3, title: "Architectural Competition", src: "/works/w3/w3.1.jpg" },
-  { id: 4, title: "Concrete Elements", src: "/works/works4.png" },
-  { id: 5, title: "Wall Sconce", src: "/works/w5/works5.png" },
+  { id: 4, title: "Concrete Elements", src: "/works/w4/w4.1.png" },
+  { id: 5, title: "Wall Sconce", src: "/works/w5/w5.1.1.jpeg" },
   { id: 6, title: "Cement Mixed Planters - Various Sizes", src: "/works/w6/w6.4.png" },
   { id: 7, title: "Ceramic Tile Mixed Fluid Forms Installation", src: "/works/w7/w7.3.png" },
-  { id: 8, title: "Cement Mixed Sculpture Installation 17th Istanbul Biennale", src: "/works/w8/w8.png" },
-  { id: 9, title: "Industrial Complex", src: "/works/works9.7.jpg" }
+  { id: 8, title: "Cement Mixed Sculpture Installation 17th Istanbul Biennale", src: "/works/w8/w8.1.1.png" },
+  { id: 9, title: "Industrial Complex", src: "/works/w9/w9.5.png" }
 ];
 
 // Props kısmına onNavigate eklendi
